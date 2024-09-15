@@ -1,0 +1,101 @@
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  z-index: 3;
+  background-color: #0F3460 !important; /* Changed to a darker blue shade */
+  padding: 10px 20px; /* Added padding for better spacing */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar .link {
+  color: #EEEEEE !important; /* Light color for better readability */
+  font-size: 18px !important; /* Slightly reduced font size */
+  font-weight: 600;
+  text-transform: uppercase; /* Added uppercase for emphasis */
+  letter-spacing: 1px; /* Added letter spacing for a modern look */
+}
+
+.navbar .link:hover {
+  color: #F05454 !important; /* Hover color to match red theme */
+}
+
+.navbar-brand {
+  width: 200px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #222831;
+  padding: 40px 0;
+  color: #EEEEEE;
+  font-family: 'Arial', sans-serif;
+  border-top: 4px solid #F05454; /* Added a red top border for accent */
+  transition: background-color 0.3s ease-in-out;
+}
+
+footer:hover {
+  background-color: #393E46; /* Darker shade on hover for footer */
+}
+
+footer .titulli {
+  color: #F05454;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer .paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #EEEEEE; /* Changed to match new color scheme */
+}
+
+footer a {
+  color: #F05454;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #FFD369; /* Lighter shade on hover */
+}
+
+footer .social-icons a {
+  margin: 0 15px;
+  color: #F05454;
+  font-size: 1.6rem;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  transform: translateY(-5px);
+  color: #FFD369; /* Changed hover color for social icons */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar .link {
+    font-size: 16px !important; /* Reduced size for mobile */
+  }
+
+  .navbar-brand {
+    width: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .link {
+    font-size: 14px !important;
+  }
+
+  .navbar-brand {
+    width: 150px;
+  }
+}
