@@ -1,0 +1,53 @@
+body{
+}
+#section1 p{
+    font-size: 20px;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff7100 !important;
+    transition: 0.2s ease-in-out;
+}
+b{
+    font-size: 22px;
+}
+.sec2{
+    box-shadow: -26px 27px 21px -24px rgba(0, 115, 255, 1);
+    -webkit-box-shadow: -26px 27px 21px -24px rgba(0, 115, 255, 1);
+    -moz-box-shadow: -26px 27px 21px -24px rgba(0, 115, 255, 1);    
+}
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+.logo{
+    height: 20vh;
+}
+.blogCard{
+    width: 18%;
+    background-color: rgba(0, 115, 255, .4);
+}
+.blogCard:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -7px 10px 20px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 10px 20px -3px rgba(0,0,0,0.75);
+box-shadow: -7px 10px 20px -3px rgba(0,0,0,0.75);
+transition: 0.3s ease-in-out;
+}
+
+.readMoreBtn{
+    text-decoration: none;
+    color: white;
+    height: fit-content;
+    border-radius: 5px;
+}
+.studentCard{
+    background-color:rgba(0, 115, 255, .1) ;
+}
+
+.vendosBtn:hover{
+    color: #ff7100 !important;
+}

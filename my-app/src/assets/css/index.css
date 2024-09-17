@@ -1,0 +1,10 @@
+body{
+  min-height: 100vh;
+}
+input,select{
+  padding: 5px;
+  border-radius: 10px;
+}
+label{
+  font-weight:600;
+}
